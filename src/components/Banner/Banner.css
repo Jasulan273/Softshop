@@ -1,0 +1,41 @@
+.banner {
+    height: 600px;
+    background-image: url('../../assets/First_Banner.png');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner_text {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_text h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 54px;
+}
+
+.banner_text button {
+    width: 182px;
+    height: 40px;
+    background: #7E6E45;
+    border: 1px solid #7E6E45;
+    border-radius: 0px;
+    color: #fff;
+    margin-top: 13px;
+}
+
+.banner_text a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    margin-top: 17px;
+    text-decoration: underline;
+}

@@ -1,0 +1,62 @@
+nav {
+    margin: 0 auto;
+    margin-top: 23px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+}
+
+a {
+    color: #000;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo h1 {
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 21px;
+}
+
+.logo img {
+    margin-left: 20px;
+}
+
+.link {
+    margin-right: 32px;
+    transition: 0.1s all ease-in;
+}
+
+.link:hover,.login:hover,.shop_now h1:hover, .shop_now h2:hover{
+    color: rgb(255, 191, 0);
+    text-decoration: underline;
+    transition: 0.1s all ease-in;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.login {
+    margin-right: 10px;
+}
+
+.shop {
+    border-left: 2px solid #000;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

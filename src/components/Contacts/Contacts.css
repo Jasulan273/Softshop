@@ -1,0 +1,64 @@
+.contacts{
+    height: 600px;
+    background-color: #CED3CA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts .container{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 420px;
+    height: 280px;
+}
+
+form h1,h3{
+    text-align: center;
+}
+
+form h1{
+    font-weight: 400;
+font-size: 34px;
+line-height: 41px;
+
+text-align: center;
+}
+
+form h3{
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* or 140% */
+
+text-align: center;
+margin-top: 19px;
+}
+
+.input{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.input input{
+    width: 340px;
+    height: 48px;
+    padding: 4px 10px;
+    outline: none;
+}
+
+.input button{
+    width: 66px;
+    height: 48px;
+}

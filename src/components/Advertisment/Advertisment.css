@@ -1,0 +1,46 @@
+.advertisment {
+    height: 600px;
+    background-color: #312F2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ads_content {
+    width: 1160px;
+    height: 440px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+
+.ads_text {
+    width: 460px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.ads_text h1 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: left;
+    width: 182px;
+}
+
+.ads_text h2 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    width: 168px;
+}
+
+.ads_text a {
+    margin-top: 32px;
+    text-decoration: underline;
+    text-align: left;
+}
